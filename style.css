@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+    margin-top: 0%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{   height: 85px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-bottom: 1px solid #00000067;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+}
+header a
+{
+    
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-size:small;
+    color: black;
+    padding: 0px;
+}
+banner-container {
+    margin-top: 100px;
+}
+
+.login_button{
+    font-size: 5 px;
+    text-align: center;
+    border: 1px solid #0070ba;
+    background-color:transparent;
+    color: #0070ba;
+    border-radius: 20px;
+    width: 65px;
+    height: 32px;
+    padding-left: 12px;
+}
+.signup_button{
+    text-align: center;
+    border:1px solid #0070ba;   
+     background-color: #0070ba;
+    
+    
+   
+    border-radius: 20px;
+    width: 77px;
+    height:33px;
+    padding-left: 12px;
+}
+.signup_button a :hover{
+    color: #0b2096;
+}
+.sign_uptext
+{
+    color: white;
+    font-size: 12px;
+}
+.log_intext{
+    color: #0070ba;
+    font-size: 12px;
+    
+}
+.centrebody{
+    background-color: #019cdf;
+    height: 240px;
+    color: white;
+    font-style: normal;
+}
+.centrebodybutton{
+    text-align: center;
+    border: 1px solid white;
+    background-color:white;
+    color:#0b2096;
+    border-radius: 20px;
+    width: 280px;
+    height: 42px;
+    padding-left: 12px;
+    top: 3px;
+
+}
+.image1
+{
+    margin-bottom: -4px;
+}
+.paypalbusiness
+{   
+    height: 180 px;
+    padding: 0%;
+    background-color:#02387b;
+    color: rgba(252, 250, 250, 0.884);
+    font-size: 25px;    
+}
+.btnpaypalbusiness
+{
+    border-radius: 20px;
+    color:#0d3685 ;
+    background-color: white;
+    width: 147px;
+    height: 36px;
+    border: none;
+    margin: 18px;
+    font-size:12px;
+    
+}
+.shopping
+{
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    background-color: #f5f7fa;
+}
+.shoppingmall
+{   margin: 100px;
+    color:#00A8EA;
+    
+    font-size: 42px;
+}
+.globe
+{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.discription1
+{
+    color: black;
+    font-size: medium;
+    margin-top: 25px;
+}
+.ShopNow
+{
+border-radius:30px;
+width: 310px;
+height: 50px;
+margin-top: 30px;
+background-color:#f5f7fa ;
+color:#0070ba;
+border: 1px solid #0070ba;
+}
+.pay
+{
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    background-color:white;
+}
+.payimage
+{
+    margin-top: 40px;
+    margin-left: 130px;   
+}
+.payit
+{
+    margin: 100px;
+    margin-left:150px;
+    color:#00A8EA;
+    font-size: 42px;  
+    
+}
+.discription2
+{
+    color: black;
+    font-size: medium;
+    margin-top: 25px;
+
+}
+.link
+{
+    border-radius:30px;
+    width: 310px;
+    height: 50px;
+    margin-top: 30px;
+    background-color:white ;
+    color:#0070ba;
+    border: 1px solid #0070ba;
+    }
+    .confidence
+    {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color:#f5f7fa;
+
+    }
+    .shopwithconfidence
+    {
+        margin: 100px;
+        margin-left:150px;
+        color:#00A8EA;
+        font-size: 42px; 
+    }
+    .discription3
+    {
+        color: black;
+        font-size: medium;
+        margin-top: 25px;
+    }
+    .findout
+    {
+      
+        border-radius:30px;
+        width: 310px;
+        height: 50px;
+        margin-top: 30px;
+        background-color:#f5f7fa ;
+        color:#0070ba;
+        border: 1px solid #0070ba;
+    }
+    .checkout
+    {
+        
+        
+        color:#00A8EA;
+        font-size: 42px; 
+        height: 230px;
+    background-color:white;
+    }
+    .checkoutf
+    {
+        margin-top: 60px;
+        
+    }
+    .udemy
+    {
+        padding: "20px";
+    }
+    .community
+    {
+        background-color: #00a8ea;
+        color: white;
+        font-size: 35px; 
+        height: 320px;
+       
+    }
+    .signupnow
+    {
+    margin-top: 25px;
+    border: 1px solid white;
+    background-color:white;
+    color:#0b2096;
+    border-radius: 20px;
+    width: 280px;
+    height: 42px;
+    padding-left: 12px;
+    }
+    .nobutton
+    {
+        background-color: white;
+margin-top: 35px;
+    width: 70px;
+    height:70px;
+    border-radius: 20px;
+    border: none;
+    padding: 0px;
+    font-size: 40px;
+
+    }
+   
+    .conditions
+    {
+        margin: 70px;
+        margin-top: 50px;
+        height: 60px;
+        
+    }
+    .footer
+    { 
+    margin-left: 100px;
+    display: flex;
+    
+
+    }
+    li
+    {
+        display:inline;
+    }
+    .india
+    {
+        margin-left: 380px;
+        width: 25px;
+        height: 20px;
+    }
+    .list
+    {
+        display: flex;
+        text-decoration: underline;
+        justify-content: space-between;
+        margin-right: 20px;
+        color:#687173;
+        font-size: small ;
+        
+    }
+    .list2
+    {           display: flex;
+        text-decoration: underline;
+        /* justify-content: space-between; */
+        margin-right: 10px;
+        margin-top: 5px;
+        color: #687173;
+        font-size: small ;
+    }
+    
+    .finaltext
+
+    {
+        margin-left: 65px;
+        color: #687173;
+        font-size: 12px;
+        margin-bottom: 40px;
+        margin-top:50px;
+
+    }
+    
+   
+
+
